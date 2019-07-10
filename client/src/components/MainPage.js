@@ -4,7 +4,8 @@ import Home from './Home';
 import Items from './Items';
 import SignIn from './SignIn';
 import SignOut from './SignOut';
-import SignUp from './SignUp';
+// import SignUp from './SignUp';
+import Users from './Users';
 
 class MainPage extends Component {
     render(){
@@ -35,7 +36,6 @@ class MainPage extends Component {
                     <Route path='/' exact component={Home} />
                     <Route path='/signIn/' exact component={SignIn} />
                     <Route path='/signOut/' exact component={SignOut} />
-                    <Route path='/signUp/' exact component={SignUp} />
                     <Route path='/items/' exact component={Items} />
                 </div>
             </Router>
