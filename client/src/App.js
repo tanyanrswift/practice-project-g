@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MainPage from './components/MainPage';
 
@@ -9,7 +8,9 @@ function App() {
       <header className='app-header'>
         <MainPage />
       </header>
-      <h1>Grocery List Application</h1>
+      <footer>
+        <p>T.Swift 2019</p>
+      </footer>
     </div>
   );
 }

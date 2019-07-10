@@ -11,7 +11,7 @@ class MainPage extends Component {
         return (
             <Router>
                 <div>
-                <h1>Main Page</h1>
+                <h1>Welcome!</h1>
                     <nav>
                         <ul>
                             <li>
